@@ -1,14 +1,14 @@
-import { IsString, IsNotEmpty, IsDate } from 'class-validator';
+// import { IsString, IsNotEmpty, IsDate } from 'class-validator';
 
-export class ExternalLoggerDto {
-    @IsNotEmpty()
-    @IsString()
-    origin: string;
+// export class ExternalLoggerDto {
+//     @IsNotEmpty()
+//     @IsString()
+//     origin: string;
 
-    @IsNotEmpty()
-    @IsString()
-    data: string;
+//     @IsNotEmpty()
+//     @IsString()
+//     data: string;
 
-    @IsString()
-    date: Date;
-}
+//     @IsString()
+//     date: Date;
+// }

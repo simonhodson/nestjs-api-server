@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+}
+
+.link-display {
+    text-align: center;
+    color: gray
+}
+
+.button-holder {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    width: 8em
+}
+
+.button {
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 2px #999;
+    cursor: pointer
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    border-color: #3e8e41;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+  }
